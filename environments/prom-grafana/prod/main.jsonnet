@@ -8,6 +8,7 @@
       grafana: "grafana/grafana:6.5.2"
     }
   },
+  // deep patching for field not exposed by lib
   promgrafana+: {
     prometheus+: {
       deployment+: {
